@@ -1,1 +1,1 @@
-# c--basics
+La verdad solo estoy aprendiendo c++ porque lo tengo como lenguaje principal en una materia de la universidad, otra vez solamente estoy usando claude para aprender, en ningun momento le pido codigo, solo le pido que me explique las funciones, sus reglas y su sintaxis, aparte de eso lo uso para subir mis proyectos a mi repo y nada mas.
