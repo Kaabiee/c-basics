@@ -12,9 +12,8 @@ int main() {
     cout << "==========================" << endl;
     cout << "     TARJETA DE PRESENTACIÓN" << endl;
     cout << "==========================" << endl;
-    cout << "Nombre " << nombre << endl;
-    cout << "Edad " << edad << endl;
+    cout << "Nombre: " << nombre << endl;
+    cout << "Edad: " << edad << endl;
     cout << "==========================" << endl;   
     return 0;
-
 }
