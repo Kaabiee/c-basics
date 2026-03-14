@@ -7,6 +7,7 @@ La verdad solo estoy aprendiendo c++ porque lo tengo como lenguaje principal en 
 - `imc.cpp`: calcula el IMC a partir de peso y altura.
 - `tablademultiplicar.cpp`: genera una tabla de multiplicar hasta el limite indicado.
 - `proyecto.cc`: permite consultar varias tablas de multiplicar en una sola ejecucion.
+- `calificaciones.cpp`: calcula el promedio de varias calificaciones e indica si se aprueba o reprueba.
 
 ## Compilar
 
