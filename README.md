@@ -5,6 +5,8 @@ La verdad solo estoy aprendiendo c++ porque lo tengo como lenguaje principal en 
 - `hola_mundo.cpp`: imprime un saludo.
 - `tarjeta_de_presentacion.cpp`: muestra una tarjeta con nombre y edad.
 - `imc.cpp`: calcula el IMC a partir de peso y altura.
+- `tablademultiplicar.cpp`: genera una tabla de multiplicar hasta el limite indicado.
+- `proyecto.cc`: permite consultar varias tablas de multiplicar en una sola ejecucion.
 
 ## Compilar
 

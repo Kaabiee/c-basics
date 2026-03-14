@@ -12,6 +12,7 @@ int main() {
     cin >> altura;
     if (altura <= 0) {
         cout << "Tu estatura no es valida." << endl;
+        return 0;
     }
 
     imc = peso / (altura * altura);
@@ -27,7 +28,7 @@ int main() {
     }
 
     else if (imc < 30) {
-        cout << "Tienes sobre peso." << endl;
+        cout << "Tienes sobrepeso." << endl;
     }
 
     else {
