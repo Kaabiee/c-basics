@@ -8,6 +8,7 @@ La verdad solo estoy aprendiendo c++ porque lo tengo como lenguaje principal en 
 - `tablademultiplicar.cpp`: genera una tabla de multiplicar hasta el limite indicado.
 - `proyecto.cc`: permite consultar varias tablas de multiplicar en una sola ejecucion.
 - `calificaciones.cpp`: calcula el promedio de varias calificaciones e indica si se aprueba o reprueba.
+- `calculadora.cpp`: calculadora cientifica interactiva con operaciones basicas y funciones como potencia, raiz, trigonometria, logaritmos y factorial.
 
 ## Compilar
 
