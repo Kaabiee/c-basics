@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     double a, b, c, mayor, menor, mediano;
 
-    cout << "====== Bienvenido a el mayor de 3 ======" << endl;
+    cout << "====== Bienvenido al mayor de 3 ======" << endl;
     cout << "Para empezar pon tus 3 numeros uno por uno" << endl;
     cin >> a;
     cin >> b;
@@ -34,17 +34,7 @@ int main() {
         menor = c;
     }
 
-    if ( a == mayor && b == menor){
-        mediano = c;
-    }
-
-    else if (b == mayor && c == menor) {
-        mediano = a;
-    }
-    
-    else {
-        mediano = b;
-    }
+    mediano = a + b + c - mayor - menor;
 
     cout << "El mayor es: " << mayor << endl;
     cout << "El mediano es: " << mediano << endl;

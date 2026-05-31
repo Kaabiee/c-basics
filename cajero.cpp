@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int opcion;
+    int opcion = 0;
     double saldo = 1000, cantidad;
 
     string monto = "Cual es la cantidad: ";
@@ -18,7 +18,7 @@ int main() {
 
 while (opcion != 4){
     cout << "====== Cajero automatico ======" << endl;
-    cout << "====== Eligue una opcion ======" << endl;
+    cout << "====== Elige una opcion ======" << endl;
     cout << opciones << endl;
     cin >> opcion;
     cout << sp << endl;
@@ -30,14 +30,21 @@ while (opcion != 4){
     }
     
     switch (opcion){
-        case 1:
+        case 1: 
         cout << "==== Depositar ====" << endl;
         cout << monto << endl;
         cin >> cantidad;
-        saldo += cantidad;
-        cout << " tu saldo se actualizo a: " << saldo << endl;
-        cout << sp << endl;
-        break;
+        
+        if (cantidad <= 0){
+            cout << "Tu opcion no es valida." << endl;
+            continue;
+        }
+        else{
+            saldo += cantidad;
+            cout << " tu saldo se actualizo a: " << saldo << endl;
+            cout << sp << endl;
+            break;
+        }
 
         case 2:
         cout << "==== Retiro ====" << endl;
@@ -59,7 +66,7 @@ while (opcion != 4){
         else{
             cout << "Tu retiro se ha completado con exito." << endl;
             saldo -= cantidad;
-            cout << "Tu saldo restante es" << saldo << endl;
+            cout << "Tu saldo restante es: " << saldo << endl;
             cout << sp << endl;
             break;
         }

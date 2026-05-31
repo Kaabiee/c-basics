@@ -15,7 +15,6 @@ int main() {
         suma += calificacion;
     }
 
-
     promedio = suma / cantidad;
 
     if (promedio >= 6) {
@@ -28,6 +27,5 @@ int main() {
         cout << "Reprobado" << endl;
     }
     
-
     return 0;
 }
