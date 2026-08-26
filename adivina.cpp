@@ -12,7 +12,7 @@ int main(){
     2.- salir)";
 
     while (res != 2){
-        cout << "====== Adivina el Numero  entre el 1 y el 100======" << endl;
+        cout << "====== Adivina el Numero  entre el 1 y el 100 ======" << endl;
         cout << menu << endl;
         cout << "eligue una de las opciones" << endl;
         cin >> res;
